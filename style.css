@@ -1,0 +1,53 @@
+body {
+    background: url(rickandmorty.jpeg);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.boxImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxxx {
+    position: absolute;
+    top: 50%;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+}
+
+.boxImg>div {
+    display: none;
+}
+
+#SelectOption {
+    padding: 10px 47px 8px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    margin: 10px auto;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    background-color: rgb(226, 228, 229, 0.9);
+    width: 500px;
+    justify-content: center;
+    border-radius: 8px;
+    text-align: center;
+}
